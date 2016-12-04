@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/day_rl_placeholder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_day">
+
+    <ImageView
+        android:id="@+id/day_iv_dumbbell"
+        style="@style/DayActivityPlaceholderStyle"
+        android:layout_marginTop="@dimen/day_iv_dumbbell"
+        android:src="@drawable/bg_day_placeholder" />
+
+    <TextView
+        android:id="@+id/dat_tv_start_now"
+        style="@style/DayActivityPlaceholderStyle"
+        android:layout_below="@id/day_iv_dumbbell"
+        android:layout_marginTop="@dimen/day_tv_start_now_margin_top"
+        android:text="@string/day_tv_start_now"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/day_tv_start_exercise_text_size" />
+
+    <TextView
+        android:id="@+id/day_tv_choose_category"
+        style="@style/DayActivityPlaceholderStyle"
+        android:layout_below="@id/dat_tv_start_now"
+        android:layout_marginTop="@dimen/day_tv_choose_exercise_margin_top"
+        android:text="@string/day_tv_choose_category"
+        android:textAlignment="center"
+        android:textColor="@android:color/secondary_text_dark"
+        android:textSize="@dimen/day_tv_choose_exercise_text_size" />
+
+    <Button
+        android:id="@+id/day_btn_add_category"
+        style="@style/DayActivityPlaceholderStyle"
+        android:layout_below="@id/day_tv_choose_category"
+        android:layout_marginTop="@dimen/day_btn_add_exercise_margin_top"
+        android:background="@drawable/selector_btn_add_exercise"
+        android:padding="@dimen/day_btn_add_exercise_padding"
+        android:text="@string/day_btn_add_exercise"
+        android:textColor="@drawable/selector_color_btn_add_category" />
+
+</RelativeLayout>

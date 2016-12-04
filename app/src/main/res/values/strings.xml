@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MindTask</string>
+
+    <!--Main-->
+    <string name="main_monday">ПОНЕДЕЛЬНИК</string>
+    <string name="main_tuesday">ВТОРНИК</string>
+    <string name="main_thursday">ЧЕТВЕРГ</string>
+    <string name="main_friday">ПЯТНИЦА</string>
+    <string name="main_saturday">СУББОТА</string>
+    <string name="main_sunday">ВОСКРЕСЕНЬЕ</string>
+    <string name="main_timer">ТАЙМЕР</string>
+    <string name="main_wednesday">СРЕДА</string>
+    <string name="main_toolbar"><b>МОЙ КАЧ</b></string>
+    <string name="main_menu_item_about">О приложении</string>
+    <!--Day-->
+    <string name="day_menu_item_add">Добавить упражнение</string>
+    <string name="day_tv_start_now"><b>Начни прямо сейчас!</b></string>
+    <string name="day_tv_choose_category">Выбери упражнение для занятий и \n создай себе идеальное тело.</string>
+    <string name="day_btn_add_exercise">Добавить упражнение</string>
+    <!--Category-->
+    <string name="category_menu_item_add">Добавить категорию</string>
+    <string name="category_toolbar_text">КАТЕГОРИИ</string>
+    <string name="main_toast_no_such_functionality">Функционал недоступен</string>
+</resources>

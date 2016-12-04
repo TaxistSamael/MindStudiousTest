@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/btn_monday"
+        style="@style/MainDayButtonStyle"
+        android:background="@drawable/selector_btn_monday"
+        android:text="@string/main_monday"
+        app:layout_column="0"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/btn_tuesday"
+        style="@style/MainDayButtonStyle"
+        android:background="@drawable/tuesday"
+        android:text="@string/main_tuesday"
+        app:layout_column="1"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_row="0" />
+
+    <Button
+        android:id="@+id/btn_thursday"
+        style="@style/MainDayButtonStyle"
+        android:background="@drawable/thursday"
+        android:text="@string/main_thursday"
+        app:layout_column="1"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/btn_friday"
+        style="@style/MainDayButtonStyle"
+        android:background="@drawable/friday"
+        android:text="@string/main_friday"
+        app:layout_column="0"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_row="2" />
+
+    <Button
+        android:id="@+id/btn_sunday"
+        style="@style/MainDayButtonStyle"
+        android:background="@drawable/sunday"
+        android:text="@string/main_sunday"
+        app:layout_column="0"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/btn_timer"
+        style="@style/MainDayButtonStyle"
+        android:background="@drawable/bg_timer"
+        android:text="@string/main_timer"
+        app:layout_column="1"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_row="3" />
+
+    <Button
+        android:id="@+id/btn_wednesday"
+        style="@style/MainDayButtonStyle"
+        android:background="@drawable/wednesday"
+        android:text="@string/main_wednesday"
+        app:layout_column="0"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/btn_saturday"
+        style="@style/MainDayButtonStyle"
+        android:background="@drawable/saturday"
+        android:text="@string/main_saturday"
+        app:layout_column="1"
+        app:layout_columnWeight="1"
+        app:layout_gravity="fill"
+        app:layout_row="2" />
+</merge>

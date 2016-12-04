@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/darker_grey</color>
+    <color name="colorPrimaryDark">@color/main_light_black</color>
+    <color name="colorAccent">@color/main_yellow_default</color>
+
+    <color name="semitransparent_black">#85000000</color>
+    <color name="darker_grey">#333333</color>
+    <color name="main_light_black">#131413</color>
+    <color name="main_yellow_default">#e0b53a</color>
+    <color name="main_yellow_pressed">#e0bf67</color>
+    <color name="main_divider_color">#2E2E2E</color>
+
+</resources>
